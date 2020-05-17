@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/register_bk_color">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:id="@+id/imageView">
+    </ImageView>
+<!--    <TextView-->
+<!--        style="@style/viewParent.headerText.NoMode"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="SIPJTI"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/whiteTextColor"-->
+<!--        android:textSize="30dp">-->
+<!--    </TextView>-->
+</LinearLayout>

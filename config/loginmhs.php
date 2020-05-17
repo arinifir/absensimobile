@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
         echo "Data Terkonfirmasi";
     }else{
         //jika tidak cocok
-        echo "Email dan Password Salah, Coba Lagi!";
+        echo "Nim atau Password Salah, Coba Lagi!";
     }
 
 }else{

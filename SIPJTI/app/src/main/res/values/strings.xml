@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SIPJTI</string>
+    <string name="login_email_hint">NIM</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="title_activity_mahasiswa">MahasiswaActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_list">Jadwal</string>
+    <string name="title_user">Profile</string>
+
+    <!--for facebook login-->
+
+    <!--facebook login ends-->
+
+    <!--error messages-->
+
+</resources>
