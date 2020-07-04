@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_bk"
+    android:layout_gravity="center_vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:background="@drawable/card"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="Record Data"
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tvTemu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:text="Pertemuan 8"
+                    android:textColor="@color/cardColor"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvTang"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:text="Saturday, 5 Dec 2020, 17:20"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/cardColor"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+
+                android:id="@+id/tvKd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="TIF6407"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Workshop Aplikasi Mobile"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAnim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e41182006"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="arini firdausiyah"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvAgol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="golongan e"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAsms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semester 4"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Keterangan:"
+                android:textColor="@color/cardColor"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAstat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Present"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/cardColor"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

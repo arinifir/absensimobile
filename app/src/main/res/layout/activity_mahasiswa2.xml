@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lySwipe3"
+    tools:context=".MahasiswaActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    style="@style/parent.contentLayout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewUser"
+                    style="@style/viewParent.headerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:text="SIP POLIJE" />
+
+                <ImageView
+                    android:id="@+id/btnqrcode"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/qrcode"
+                    android:layout_alignParentEnd="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:background="@drawable/gradient1"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center"
+                                android:layout_marginBottom="20dp">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center">
+                                    <ImageView
+                                        android:layout_width="130dp"
+                                        android:layout_height="90dp"
+                                        android:src="@drawable/user3" />
+                                    <Button
+                                        android:layout_width="80dp"
+                                        android:layout_height="25dp"
+                                        android:layout_marginTop="5dp"
+                                        android:text="Password"
+                                        android:textSize="12dp"
+                                        android:id="@+id/btPass"
+                                        android:textColor="@color/whiteTextColor"
+                                        android:background="@drawable/gradient2"/>
+                                    <Button
+                                        android:layout_width="80dp"
+                                        android:layout_height="25dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="Logout"
+                                        android:textSize="12dp"
+                                        android:id="@+id/btLogout"
+                                        android:textColor="@color/whiteTextColor"
+                                        android:background="@drawable/gradient2"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="15dp"
+                                    android:textAllCaps="true">
+
+                                    <TextView
+                                        android:id="@+id/tvNim"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="NIM"
+                                        android:textSize="18dp"
+                                        android:layout_marginTop="10dp"
+                                        android:textColor="@color/whiteBodyColor"
+                                        android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/tvNama"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textAllCaps="true"
+                                        android:text="Arini Firdausiyah Indah Lutfiah Ali"
+                                        android:textSize="12dp"
+                                        android:textColor="@color/whiteBodyColor"
+                                        android:textStyle="bold"/>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Golongan "
+                                            android:textSize="12dp"
+                                            android:textAllCaps="true"
+                                            android:textColor="@color/whiteBodyColor"
+                                            android:textStyle="bold"/>
+                                        <TextView
+                                            android:id="@+id/tvGol"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="E"
+                                            android:textSize="12dp"
+                                            android:textColor="@color/whiteBodyColor"
+                                            android:textStyle="bold"/>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Semester "
+                                            android:textSize="12dp"
+                                            android:textAllCaps="true"
+                                            android:textColor="@color/whiteBodyColor"
+                                            android:textStyle="bold"/>
+                                        <TextView
+                                            android:id="@+id/tvSms"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="4"
+                                            android:textSize="12dp"
+                                            android:textColor="@color/whiteBodyColor"
+                                            android:textStyle="bold"/>
+                                    </LinearLayout>
+                                    <TextView
+                                        android:id="@+id/tvPro"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Teknik Informatika"
+                                        android:textSize="12dp"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/whiteBodyColor"
+                                        android:textStyle="bold"/>
+                                    <TextView
+                                        android:id="@+id/tvJur"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Teknologi Informasi"
+                                        android:textSize="12dp"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/whiteBodyColor"
+                                        android:textStyle="bold"/>
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Menu"
+                    style="@style/viewParent.titleText"/>
+
+            </RelativeLayout>
+
+            <include layout="@layout/card_menu" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    style="@style/viewParent.titleText"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Jadwal Hari Ini" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:background="@drawable/border2"
+                    android:text="Lihat Semua"
+                    android:id="@+id/btSee"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvday"
+                android:text="Saturday, 5 Dec 2020"
+                android:padding="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/cardColor"
+                android:textStyle="bold"/>
+<!--            <include layout="@layout/card_schedule"/>-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lvhome"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

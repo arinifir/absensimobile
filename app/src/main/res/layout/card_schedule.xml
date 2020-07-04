@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/card"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:background="@drawable/layout"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:textColor="@color/cardColor"
+            android:textAlignment="center"
+            android:padding="4dp"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:text="Senin"
+            android:id="@+id/nama_hari"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workshop Aplikasi Mobile"
+            android:id="@+id/nama_matkul"
+            android:textColor="@color/miniTitle"
+            android:textSize="16dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_map"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Workshop Komputasi Sistem Informasi"
+                android:textAllCaps="true"
+                android:id="@+id/ruangan"
+                android:textColor="@color/darkTextColor"
+                android:textSize="12dp"
+                android:maxLines="3"/>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:padding="2dp"-->
+<!--                android:src="@drawable/ic_build"-->
+<!--                android:layout_marginRight="10dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Teknologi Informasi"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:textColor="@color/darkTextColor"-->
+<!--                android:textSize="12dp"-->
+<!--                android:maxLines="3"/>-->
+<!--        </LinearLayout>-->
+       <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_lecture2"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ery Setiyawan Jullev Atmaji"
+                android:textAllCaps="true"
+                android:id="@+id/nama_dosen"
+                android:textColor="@color/darkTextColor"
+                android:textSize="12dp"
+                android:maxLines="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_clock"
+                android:padding="2dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="07:00"
+                android:id="@+id/waktu_mulai"
+                android:textColor="@color/cardColor"
+                android:textSize="12dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:maxLines="3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="-"
+                android:textColor="@color/cardColor"
+                android:textSize="12dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:maxLines="3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09:00"
+                android:textColor="@color/cardColor"
+                android:textSize="12dp"
+                android:id="@+id/waktu_selesai"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:maxLines="3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="WIB"
+                android:textColor="@color/cardColor"
+                android:textSize="12dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:maxLines="3"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
